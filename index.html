@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Minimalistik Instagram Muzeyi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+    <div id="canvas-container"></div>
+    <div id="crosshair"></div>
+
+    <!-- Tepadagi sarlavha -->
+    <div id="museum-title">1-guruh profil muzeyi</div>
+
+    <!-- Xush kelibsiz banneri -->
+    <div id="welcome-banner">
+        <span>🎉 1-guruh profil muzeyiga xush kelibsiz!</span>
+    </div>
+
+    <!-- Profilni ko'rish tugmasi -->
+    <div id="action-prompt" class="hidden">
+        <button id="view-profile-btn">Profilni ko'rish</button>
+        <div id="profile-nickname-label">@nickname</div>
+    </div>
+
+    <!-- Virtual Joystik -->
+    <div id="joysticks-container">
+        <div id="joystick-base">
+            <div id="joystick-thumb"></div>
+        </div>
+    </div>
+
+    <div id="instructions">
+        <p>📱 Joystik orqali yuring | Ekranni surib kamerani aylantiring</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
